@@ -12,7 +12,7 @@ Model Technology ModelSim - Intel FPGA Edition vlog 10.5c Compiler 2017.01 Jan 2
 Top level modules:
 	signExtend
 
-} {} {}} C:/intelFPGA_pro/projects/MIPS/lab_1/regFile.v {1 {vlog -work work -stats=none {C:\intelFPGA_pro\projects\MIPS\lab_1\regFile.v}
+} {} {}} C:/intelFPGA_pro/projects/MIPS/lab_1/regFile.v {1 {vlog -work work -stats=none C:/intelFPGA_pro/projects/MIPS/lab_1/regFile.v
 Model Technology ModelSim - Intel FPGA Edition vlog 10.5c Compiler 2017.01 Jan 23 2017
 -- Compiling module regFile
 

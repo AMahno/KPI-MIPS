@@ -13,11 +13,11 @@ module regFile(i_clk,
 	input   [31:0]  i_wdata;           
 	output reg [31:0]  o_rdata1, o_rdata2;
 
-	reg [31:0] regs[4:0];
+	reg [31:0] regs[31:0];
 	
 	always @(posedge i_clk)
 		if(i_we)
-			regs[i_waddr][31:0] <= i_wdata[31:0];
+			regs[i_waddr] <= i_wdata;
 		else begin
 			o_rdata1 <= regs[i_raddr1];
 			o_rdata2 <= regs[i_raddr2];
