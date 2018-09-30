@@ -1,0 +1,36 @@
+C:/intelFPGA_pro/projects/MIPS/lab_1/mux2in1.v {1 {vlog -work work -stats=none {C:\intelFPGA_pro\projects\MIPS\lab_1\mux2in1.v}
+Model Technology ModelSim - Intel FPGA Edition vlog 10.5c Compiler 2017.01 Jan 23 2017
+-- Compiling module mux2in1
+
+Top level modules:
+	mux2in1
+
+} {} {}} C:/intelFPGA_pro/projects/MIPS/lab_1/signExtend.v {1 {vlog -work work -stats=none {C:\intelFPGA_pro\projects\MIPS\lab_1\signExtend.v}
+Model Technology ModelSim - Intel FPGA Edition vlog 10.5c Compiler 2017.01 Jan 23 2017
+-- Compiling module signExtend
+
+Top level modules:
+	signExtend
+
+} {} {}} C:/intelFPGA_pro/projects/MIPS/lab_1/regFile.v {1 {vlog -work work -stats=none {C:\intelFPGA_pro\projects\MIPS\lab_1\regFile.v}
+Model Technology ModelSim - Intel FPGA Edition vlog 10.5c Compiler 2017.01 Jan 23 2017
+-- Compiling module regFile
+
+Top level modules:
+	regFile
+
+} {} {}} C:/intelFPGA_pro/projects/MIPS/lab_1/shiftLeftBy2.v {1 {vlog -work work -stats=none {C:\intelFPGA_pro\projects\MIPS\lab_1\shiftLeftBy2.v}
+Model Technology ModelSim - Intel FPGA Edition vlog 10.5c Compiler 2017.01 Jan 23 2017
+-- Compiling module shiftLeftBy2
+
+Top level modules:
+	shiftLeftBy2
+
+} {} {}} C:/intelFPGA_pro/projects/MIPS/lab_1/pc.v {1 {vlog -work work -stats=none {C:\intelFPGA_pro\projects\MIPS\lab_1\pc.v}
+Model Technology ModelSim - Intel FPGA Edition vlog 10.5c Compiler 2017.01 Jan 23 2017
+-- Compiling module pc
+
+Top level modules:
+	pc
+
+} {} {}}
