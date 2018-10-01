@@ -15,12 +15,16 @@ module regFile(i_clk,
 
 	reg [31:0] regs[31:0];
 	
-	always @(posedge i_clk)
-		if(i_we)
+	always @(posedge i_clk) begin
+		if(i_we) begin
 			regs[i_waddr] <= i_wdata;
-		else begin
-			o_rdata1 <= regs[i_raddr1];
-			o_rdata2 <= regs[i_raddr2];
 		end
+
+		if(i_raddr1 == 0) o_rdata1 = 0;
+		else o_rdata1 <= regs[i_raddr1];
+		
+		if(i_raddr2 == 0) o_rdata2 = 0;
+		else o_rdata2 <= regs[i_raddr2];
+	end
   
 endmodule

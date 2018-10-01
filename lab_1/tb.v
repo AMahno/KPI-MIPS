@@ -15,9 +15,10 @@ module tb();
 	mux2in1 mux(.i_dat0(mux_a), .i_dat1(mux_b), .i_control(mux_control), .o_dat(mux_out));
 	
 	reg [15:0] sign_in;
+	reg unsign_tb;
 	wire [31:0] sign_out ;
 	
-	signExtend sign(.i_data(sign_in), .o_data(sign_out));
+	signExtend sign(.i_data(sign_in), .o_data(sign_out), .unsign(unsign_tb));
 	
 	reg [31:0] in_shift;
 	wire [31:0] out_shift;
@@ -57,13 +58,19 @@ module tb();
 		#5 clk <= !clk;
 	
 	initial begin
+		addr_a = 0;
+		addr_b = 0;
+	
 		mux_a <= 32'hDEADBEEF;
 		mux_b <= 32'hFEEDC0DE;
 		mux_control <= 1'b0;
 		mux_control <= #10 1'b1;
 		
+		unsign_tb <= 1'b0;
 		sign_in <= 32'h3EEF;
 		sign_in <= #10 32'hDEAD;
+		unsign_tb <= #10 1'b1;
+		unsign_tb <= #20 1'b0;
 		
 		in_shift <= 32'h1010;
 		

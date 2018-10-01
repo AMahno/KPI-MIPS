@@ -9,7 +9,7 @@ z2
 cModel Technology
 dC:/intelFPGA_pro/projects/Taucode
 vmux2in1
-Z0 !s110 1538339866
+Z0 !s110 1538386403
 !i10b 1
 !s100 _=_>Z6]CN538Y]kG=Zh9H3
 Idej`C]ON:Sgm1fPC`[GLM2
@@ -23,41 +23,41 @@ Z3 OV;L;10.5c;63
 r1
 !s85 0
 31
-Z4 !s108 1538339866.000000
-Z5 !s107 pc.v|shiftLeftBy2.v|regFile.v|signExtend.v|mux2in1.v|C:\intelFPGA_pro\projects\MIPS\lab_1\tb.v|
-Z6 !s90 -reportprogress|300|-work|work|-stats=none|C:\intelFPGA_pro\projects\MIPS\lab_1\tb.v|
+Z4 !s108 1538386403.000000
+Z5 !s107 pc.v|shiftLeftBy2.v|regFile.v|signExtend.v|mux2in1.v|C:/intelFPGA_pro/projects/MIPS/lab_1/tb.v|
+Z6 !s90 -reportprogress|300|-work|work|-stats=none|C:/intelFPGA_pro/projects/MIPS/lab_1/tb.v|
 !i113 1
 Z7 o-work work
 Z8 tCvgOpt 0
 vpc
-R0
+Z9 !s110 1538386580
 !i10b 1
-!s100 MKV>];zVPH4`EZ9UShWhZ0
-Igfi013EGTZY1UO8;clZfV3
+!s100 J__^A_Ml0hjXc;iMWO?AY3
+IOmIo2j@ZhHXRliONGR0l21
 R1
 R2
-w1538334588
-8pc.v
-Fpc.v
+w1538386537
+8C:\intelFPGA_pro\projects\MIPS\lab_1\pc.v
+FC:\intelFPGA_pro\projects\MIPS\lab_1\pc.v
 L0 1
 R3
 r1
 !s85 0
 31
-R4
-R5
-R6
+Z10 !s108 1538386580.000000
+!s107 C:\intelFPGA_pro\projects\MIPS\lab_1\pc.v|
+!s90 -reportprogress|300|-work|work|-stats=none|C:\intelFPGA_pro\projects\MIPS\lab_1\pc.v|
 !i113 1
 R7
 R8
 vregFile
 R0
 !i10b 1
-!s100 f:jdo1Z??n1DNnW?nFS:I2
-I^;OL<jS[KPkWREFS4GTfX1
+!s100 HABU93jW;FRUT_U`]BAIW0
+IMaRXi[0X@<`84F[>O4L2>2
 R1
 R2
-w1538339207
+w1538386362
 8regFile.v
 FregFile.v
 L0 1
@@ -95,23 +95,23 @@ R7
 R8
 nshift@left@by2
 vsignExtend
-R0
+R9
 !i10b 1
-!s100 M^FD]7o4L5jLOJ8W_XUz40
-I]bi=DC:N[]egHG9LbD:P10
+!s100 R`EeVR0h^mQ5c<MnCK0DS2
+INo0cY:[;M86G=]UPg>Oo@3
 R1
 R2
-w1538331263
-8signExtend.v
-FsignExtend.v
+w1538386476
+8C:\intelFPGA_pro\projects\MIPS\lab_1\signExtend.v
+FC:\intelFPGA_pro\projects\MIPS\lab_1\signExtend.v
 L0 1
 R3
 r1
 !s85 0
 31
-R4
-R5
-R6
+R10
+!s107 C:\intelFPGA_pro\projects\MIPS\lab_1\signExtend.v|
+!s90 -reportprogress|300|-work|work|-stats=none|C:\intelFPGA_pro\projects\MIPS\lab_1\signExtend.v|
 !i113 1
 R7
 R8
@@ -119,13 +119,13 @@ nsign@extend
 vtb
 R0
 !i10b 1
-!s100 j]fRnOSS:H^GiEczXiK9?3
-I3mR2lND6@ez:l4XP=ZT8m0
+!s100 IY4oHmiK:RAi=l:ohG?k23
+I4S23j`kfDC@_l2_aT=SH@0
 R1
 R2
-w1538339864
-8C:\intelFPGA_pro\projects\MIPS\lab_1\tb.v
-FC:\intelFPGA_pro\projects\MIPS\lab_1\tb.v
+w1538386401
+8C:/intelFPGA_pro/projects/MIPS/lab_1/tb.v
+FC:/intelFPGA_pro/projects/MIPS/lab_1/tb.v
 L0 8
 R3
 r1

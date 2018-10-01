@@ -10,6 +10,7 @@ add wave -radix hexadecimal /tb/mux_out
 
 add wave /tb/sign_in
 add wave /tb/sign_out
+add wave /tb/unsign_tb
 
 add wave -radix hexadecimal /tb/reg_w
 add wave -radix hexadecimal /tb/addr_w
