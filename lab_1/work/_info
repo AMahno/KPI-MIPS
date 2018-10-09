@@ -51,23 +51,23 @@ R6
 R7
 R8
 vregFile
-R0
+!s110 1539074536
 !i10b 1
-!s100 HABU93jW;FRUT_U`]BAIW0
-IMaRXi[0X@<`84F[>O4L2>2
+!s100 lVFfNPRR8FGA=nQ_G7i_:3
+IL9H8>I__:m<QA`JMbFBY[1
 R1
 R2
-w1538386362
-8regFile.v
-FregFile.v
+w1539074477
+8C:/intelFPGA_pro/projects/MIPS/lab_1/regFile.v
+FC:/intelFPGA_pro/projects/MIPS/lab_1/regFile.v
 L0 1
 R3
 r1
 !s85 0
 31
-R4
-R5
-R6
+!s108 1539074536.000000
+!s107 C:/intelFPGA_pro/projects/MIPS/lab_1/regFile.v|
+!s90 -reportprogress|300|-work|work|-stats=none|C:/intelFPGA_pro/projects/MIPS/lab_1/regFile.v|
 !i113 1
 R7
 R8
