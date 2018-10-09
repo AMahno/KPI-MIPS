@@ -9,7 +9,7 @@ z2
 cModel Technology
 dC:/intelFPGA_pro/projects/Taucode
 vmux2in1
-Z0 !s110 1538386403
+Z0 !s110 1538771176
 !i10b 1
 !s100 _=_>Z6]CN538Y]kG=Zh9H3
 Idej`C]ON:Sgm1fPC`[GLM2
@@ -23,30 +23,30 @@ Z3 OV;L;10.5c;63
 r1
 !s85 0
 31
-Z4 !s108 1538386403.000000
+Z4 !s108 1538771176.000000
 Z5 !s107 pc.v|shiftLeftBy2.v|regFile.v|signExtend.v|mux2in1.v|C:/intelFPGA_pro/projects/MIPS/lab_1/tb.v|
 Z6 !s90 -reportprogress|300|-work|work|-stats=none|C:/intelFPGA_pro/projects/MIPS/lab_1/tb.v|
 !i113 1
 Z7 o-work work
 Z8 tCvgOpt 0
 vpc
-Z9 !s110 1538386580
+R0
 !i10b 1
-!s100 J__^A_Ml0hjXc;iMWO?AY3
-IOmIo2j@ZhHXRliONGR0l21
+!s100 OiIAZk_F`:NZWzo_MgP9Q3
+IgOWnZTQzd9[DWM@m@@R512
 R1
 R2
 w1538386537
-8C:\intelFPGA_pro\projects\MIPS\lab_1\pc.v
-FC:\intelFPGA_pro\projects\MIPS\lab_1\pc.v
+8pc.v
+Fpc.v
 L0 1
 R3
 r1
 !s85 0
 31
-Z10 !s108 1538386580.000000
-!s107 C:\intelFPGA_pro\projects\MIPS\lab_1\pc.v|
-!s90 -reportprogress|300|-work|work|-stats=none|C:\intelFPGA_pro\projects\MIPS\lab_1\pc.v|
+R4
+R5
+R6
 !i113 1
 R7
 R8
@@ -95,23 +95,23 @@ R7
 R8
 nshift@left@by2
 vsignExtend
-R9
+R0
 !i10b 1
-!s100 R`EeVR0h^mQ5c<MnCK0DS2
-INo0cY:[;M86G=]UPg>Oo@3
+!s100 Og271XEb6D_G07So>N]Sa0
+IOiAX=HfIn]Y61oHIJ`ZT^2
 R1
 R2
 w1538386476
-8C:\intelFPGA_pro\projects\MIPS\lab_1\signExtend.v
-FC:\intelFPGA_pro\projects\MIPS\lab_1\signExtend.v
+8signExtend.v
+FsignExtend.v
 L0 1
 R3
 r1
 !s85 0
 31
-R10
-!s107 C:\intelFPGA_pro\projects\MIPS\lab_1\signExtend.v|
-!s90 -reportprogress|300|-work|work|-stats=none|C:\intelFPGA_pro\projects\MIPS\lab_1\signExtend.v|
+R4
+R5
+R6
 !i113 1
 R7
 R8

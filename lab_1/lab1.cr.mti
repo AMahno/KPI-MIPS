@@ -5,20 +5,20 @@ Model Technology ModelSim - Intel FPGA Edition vlog 10.5c Compiler 2017.01 Jan 2
 Top level modules:
 	mux2in1
 
-} {} {}} C:/intelFPGA_pro/projects/MIPS/lab_1/signExtend.v {2 {vlog -work work -stats=none {C:\intelFPGA_pro\projects\MIPS\lab_1\signExtend.v}
+} {} {}} C:/intelFPGA_pro/projects/MIPS/lab_1/signExtend.v {2 {vlog -work work -stats=none C:/intelFPGA_pro/projects/MIPS/lab_1/signExtend.v
 Model Technology ModelSim - Intel FPGA Edition vlog 10.5c Compiler 2017.01 Jan 23 2017
 -- Compiling module signExtend
-** Warning: (vlog-2121) C:\intelFPGA_pro\projects\MIPS\lab_1\signExtend.v(6): Illegal concatenation of an unsized constant. Will treat it as a 32-bit value.
+** Warning: (vlog-2121) C:/intelFPGA_pro/projects/MIPS/lab_1/signExtend.v(6): Illegal concatenation of an unsized constant. Will treat it as a 32-bit value.
 
 Top level modules:
 	signExtend
 
-} {} {}} C:/intelFPGA_pro/projects/MIPS/lab_1/regFile.v {1 {vlog -work work -stats=none {C:\intelFPGA_pro\projects\MIPS\lab_1\regFile.v}
+} {} {}} C:/intelFPGA_pro/projects/MIPS/lab_1/shiftLeftBy2.v {1 {vlog -work work -stats=none C:/intelFPGA_pro/projects/MIPS/lab_1/shiftLeftBy2.v
 Model Technology ModelSim - Intel FPGA Edition vlog 10.5c Compiler 2017.01 Jan 23 2017
--- Compiling module regFile
+-- Compiling module shiftLeftBy2
 
 Top level modules:
-	regFile
+	shiftLeftBy2
 
 } {} {}} C:/intelFPGA_pro/projects/MIPS/lab_1/tb.v {2 {vlog -work work -stats=none C:/intelFPGA_pro/projects/MIPS/lab_1/tb.v
 Model Technology ModelSim - Intel FPGA Edition vlog 10.5c Compiler 2017.01 Jan 23 2017
@@ -33,14 +33,14 @@ Model Technology ModelSim - Intel FPGA Edition vlog 10.5c Compiler 2017.01 Jan 2
 Top level modules:
 	tb
 
-} {} {}} C:/intelFPGA_pro/projects/MIPS/lab_1/shiftLeftBy2.v {1 {vlog -work work -stats=none C:/intelFPGA_pro/projects/MIPS/lab_1/shiftLeftBy2.v
+} {} {}} C:/intelFPGA_pro/projects/MIPS/lab_1/regFile.v {1 {vlog -work work -stats=none C:/intelFPGA_pro/projects/MIPS/lab_1/regFile.v
 Model Technology ModelSim - Intel FPGA Edition vlog 10.5c Compiler 2017.01 Jan 23 2017
--- Compiling module shiftLeftBy2
+-- Compiling module regFile
 
 Top level modules:
-	shiftLeftBy2
+	regFile
 
-} {} {}} C:/intelFPGA_pro/projects/MIPS/lab_1/pc.v {1 {vlog -work work -stats=none {C:\intelFPGA_pro\projects\MIPS\lab_1\pc.v}
+} {} {}} C:/intelFPGA_pro/projects/MIPS/lab_1/pc.v {1 {vlog -work work -stats=none C:/intelFPGA_pro/projects/MIPS/lab_1/pc.v
 Model Technology ModelSim - Intel FPGA Edition vlog 10.5c Compiler 2017.01 Jan 23 2017
 -- Compiling module pc
 
