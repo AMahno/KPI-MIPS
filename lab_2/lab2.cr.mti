@@ -5,13 +5,6 @@ Model Technology ModelSim - Intel FPGA Edition vlog 10.5c Compiler 2017.01 Jan 2
 Top level modules:
 	aluControl
 
-} {} {}} C:/intelFPGA_pro/projects/MIPS/lab_2/adder.v {1 {vlog -work work -stats=none C:/intelFPGA_pro/projects/MIPS/lab_2/adder.v
-Model Technology ModelSim - Intel FPGA Edition vlog 10.5c Compiler 2017.01 Jan 23 2017
--- Compiling module adder
-
-Top level modules:
-	adder
-
 } {} {}} C:/intelFPGA_pro/projects/MIPS/lab_2/ram.v {1 {vlog -work work -stats=none C:/intelFPGA_pro/projects/MIPS/lab_2/ram.v
 Model Technology ModelSim - Intel FPGA Edition vlog 10.5c Compiler 2017.01 Jan 23 2017
 -- Compiling module ram
@@ -19,12 +12,30 @@ Model Technology ModelSim - Intel FPGA Edition vlog 10.5c Compiler 2017.01 Jan 2
 Top level modules:
 	ram
 
-} {} {}} C:/intelFPGA_pro/projects/MIPS/lab_2/rom.v {1 {vlog -work work -stats=none C:/intelFPGA_pro/projects/MIPS/lab_2/rom.v
+} {} {}} C:/intelFPGA_pro/projects/MIPS/lab_2/adder.v {1 {vlog -work work -stats=none C:/intelFPGA_pro/projects/MIPS/lab_2/adder.v
+Model Technology ModelSim - Intel FPGA Edition vlog 10.5c Compiler 2017.01 Jan 23 2017
+-- Compiling module adder
+
+Top level modules:
+	adder
+
+} {} {}} C:/intelFPGA_pro/projects/MIPS/lab_2/rom.v {1 {vlog -work work -stats=none {C:\intelFPGA_pro\projects\MIPS\lab_2\rom.v}
 Model Technology ModelSim - Intel FPGA Edition vlog 10.5c Compiler 2017.01 Jan 23 2017
 -- Compiling module rom
 
 Top level modules:
 	rom
+
+} {} {}} C:/intelFPGA_pro/projects/MIPS/lab_2/tb.v {1 {vlog -work work -stats=none {C:\intelFPGA_pro\projects\MIPS\lab_2\tb.v}
+Model Technology ModelSim - Intel FPGA Edition vlog 10.5c Compiler 2017.01 Jan 23 2017
+-- Compiling module aluControl
+-- Compiling module ram
+-- Compiling module adder
+-- Compiling module alu
+-- Compiling module tb
+
+Top level modules:
+	tb
 
 } {} {}} C:/intelFPGA_pro/projects/MIPS/lab_2/alu.v {1 {vlog -work work -stats=none C:/intelFPGA_pro/projects/MIPS/lab_2/alu.v
 Model Technology ModelSim - Intel FPGA Edition vlog 10.5c Compiler 2017.01 Jan 23 2017

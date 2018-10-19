@@ -1,0 +1,188 @@
+# Compile of tb.v failed with 5 errors.
+# Compile of tb.v failed with 4 errors.
+# Compile of tb.v was successful.
+do do.do
+# vsim -gui work.tb -t ns 
+# Start time: 22:36:31 on Oct 19,2018
+# Loading work.tb
+# Loading work.aluControl
+# ** Warning: (vsim-3015) C:/intelFPGA_pro/projects/MIPS/lab_2/tb.v(10): [PCDPC] - Port size (2) does not match connection size (4) for port 'i_aluOp'. The port definition is at: aluControl.v(1).
+#    Time: 0 ns  Iteration: 0  Instance: /tb/aluControl_INST File: aluControl.v
+# ** Warning: (vsim-3015) C:/intelFPGA_pro/projects/MIPS/lab_2/tb.v(10): [PCDPC] - Port size (2) does not match connection size (4) for port 'i_aluOp'. The port definition is at: aluControl.v(1).
+#    Time: 0 ns  Iteration: 0  Instance: /tb/aluControl_INST File: aluControl.v
+# 0 ns
+# 100 ns
+# ** Error (suppressible): (vsim-3601) Iteration limit 5000 reached at time 40 ns.
+# Error opening C:/intelFPGA_pro/projects/MIPS/lab_2/[PCDPC] - Port size (2) does not match connection size 
+# Path name 'C:/intelFPGA_pro/projects/MIPS/lab_2/[PCDPC] - Port size (2) does not match connection size ' doesn't exist.
+# Compile of tb.v was successful.
+do do.do
+# End time: 22:38:12 on Oct 19,2018, Elapsed time: 0:01:41
+# Errors: 2, Warnings: 2
+# vsim -gui work.tb -t ns 
+# Start time: 22:38:12 on Oct 19,2018
+# Loading work.tb
+# Loading work.aluControl
+# 0 ns
+# 100 ns
+do do.do
+# End time: 22:41:43 on Oct 19,2018, Elapsed time: 0:03:31
+# Errors: 0, Warnings: 0
+# vsim -gui work.tb -t ns 
+# Start time: 22:41:43 on Oct 19,2018
+# Loading work.tb
+# Loading work.aluControl
+# ** Error: Unrecognized option: "-randix" ignored.
+# (vish-4014) No objects found matching 'control_out'.
+# Error in macro ./do.do line 23
+# Unrecognized option: "-randix" ignored.
+# (vish-4014) No objects found matching 'control_out'.
+#     while executing
+# "add wave -randix control_out /tb/tb_aluControl"
+do do.do
+# End time: 22:42:01 on Oct 19,2018, Elapsed time: 0:00:18
+# Errors: 3, Warnings: 0
+# vsim -gui work.tb -t ns 
+# Start time: 22:42:01 on Oct 19,2018
+# Loading work.tb
+# Loading work.aluControl
+# 0 ns
+# 100 ns
+# Compile of tb.v failed with 3 errors.
+# Compile of tb.v failed with 1 errors.
+# Compile of tb.v was successful.
+do do.do
+# End time: 22:50:36 on Oct 19,2018, Elapsed time: 0:08:35
+# Errors: 0, Warnings: 0
+# vsim -gui work.tb -t ns 
+# Start time: 22:50:36 on Oct 19,2018
+# Loading work.tb
+# Loading work.aluControl
+# Loading work.ram
+# ** Warning: (vsim-3015) C:/intelFPGA_pro/projects/MIPS/lab_2/tb.v(24): [PCDPC] - Port size (5) does not match connection size (6) for port 'i_addr'. The port definition is at: ram.v(1).
+#    Time: 0 ns  Iteration: 0  Instance: /tb/ram_INST File: ram.v
+# ** Warning: (vsim-3015) C:/intelFPGA_pro/projects/MIPS/lab_2/tb.v(24): [PCDPC] - Port size (5) does not match connection size (6) for port 'i_addr'. The port definition is at: ram.v(1).
+#    Time: 0 ns  Iteration: 0  Instance: /tb/ram_INST File: ram.v
+# 0 ns
+# 100 ns
+# Compile of tb.v was successful.
+do do.do
+# End time: 22:51:20 on Oct 19,2018, Elapsed time: 0:00:44
+# Errors: 0, Warnings: 2
+# vsim -gui work.tb -t ns 
+# Start time: 22:51:20 on Oct 19,2018
+# Loading work.tb
+# Loading work.aluControl
+# Loading work.ram
+# 0 ns
+# 100 ns
+do do.do
+# End time: 22:51:38 on Oct 19,2018, Elapsed time: 0:00:18
+# Errors: 0, Warnings: 0
+# vsim -gui work.tb -t ns 
+# Start time: 22:51:38 on Oct 19,2018
+# Loading work.tb
+# Loading work.aluControl
+# Loading work.ram
+# 0 ns
+# 500 ns
+do do.do
+# End time: 22:51:58 on Oct 19,2018, Elapsed time: 0:00:20
+# Errors: 0, Warnings: 0
+# vsim -gui work.tb -t ns 
+# Start time: 22:51:58 on Oct 19,2018
+# Loading work.tb
+# Loading work.aluControl
+# Loading work.ram
+# 0 ns
+# 1 us
+# Compile of tb.v failed with 1 errors.
+# Compile of tb.v was successful.
+do do.do
+# End time: 22:56:59 on Oct 19,2018, Elapsed time: 0:05:01
+# Errors: 0, Warnings: 0
+# vsim -gui work.tb -t ns 
+# Start time: 22:56:59 on Oct 19,2018
+# Loading work.tb
+# Loading work.aluControl
+# Loading work.ram
+# Loading work.adder
+# 0 ns
+# 1 us
+# Compile of tb.v was successful.
+do do.do
+# End time: 23:05:38 on Oct 19,2018, Elapsed time: 0:08:39
+# Errors: 0, Warnings: 0
+# vsim -gui work.tb -t ns 
+# Start time: 23:05:38 on Oct 19,2018
+# Loading work.tb
+# Loading work.aluControl
+# Loading work.ram
+# Loading work.adder
+# Loading work.alu
+# 0 ns
+# 1500 ns
+# Compile of tb.v was successful.
+do do.do
+# End time: 23:08:54 on Oct 19,2018, Elapsed time: 0:03:16
+# Errors: 0, Warnings: 0
+# vsim -gui work.tb -t ns 
+# Start time: 23:08:55 on Oct 19,2018
+# Loading work.tb
+# Loading work.aluControl
+# Loading work.ram
+# Loading work.adder
+# Loading work.alu
+# Loading work.rom
+# 0 ns
+# 1 us
+# ** Warning: (vsim-PLI-3407) Too many data words read on line 9 of file "rom_init.dat". (Current address [8], address range [0:7])    : C:/intelFPGA_pro/projects/MIPS/lab_2/rom.v(14)
+#    Time: 0 ns  Iteration: 0  Instance: /tb/rom_INST
+do do.do
+# End time: 23:10:08 on Oct 19,2018, Elapsed time: 0:01:13
+# Errors: 0, Warnings: 1
+# vsim -gui work.tb -t ns 
+# Start time: 23:10:08 on Oct 19,2018
+# Loading work.tb
+# Loading work.aluControl
+# Loading work.ram
+# Loading work.adder
+# Loading work.alu
+# Loading work.rom
+# ** Error: (vish-4014) No objects found matching '/tb/rb_rom_data'.
+# Error in macro ./do.do line 41
+# (vish-4014) No objects found matching '/tb/rb_rom_data'.
+#     while executing
+# "add wave -radix hexadecimal /tb/rb_rom_data"
+do do.do
+# End time: 23:10:25 on Oct 19,2018, Elapsed time: 0:00:17
+# Errors: 3, Warnings: 0
+# vsim -gui work.tb -t ns 
+# Start time: 23:10:25 on Oct 19,2018
+# Loading work.tb
+# Loading work.aluControl
+# Loading work.ram
+# Loading work.adder
+# Loading work.alu
+# Loading work.rom
+# 0 ns
+# 1 us
+# ** Warning: (vsim-PLI-3407) Too many data words read on line 9 of file "rom_init.dat". (Current address [8], address range [0:7])    : C:/intelFPGA_pro/projects/MIPS/lab_2/rom.v(14)
+#    Time: 0 ns  Iteration: 0  Instance: /tb/rom_INST
+# Compile of rom.v was successful.
+# Compile of rom.v was successful.
+do do.do
+# End time: 23:13:15 on Oct 19,2018, Elapsed time: 0:02:50
+# Errors: 0, Warnings: 1
+# vsim -gui work.tb -t ns 
+# Start time: 23:13:15 on Oct 19,2018
+# Loading work.tb
+# Loading work.aluControl
+# Loading work.ram
+# Loading work.adder
+# Loading work.alu
+# Loading work.rom
+# 0 ns
+# 1 us
+# End time: 23:14:13 on Oct 19,2018, Elapsed time: 0:00:58
+# Errors: 0, Warnings: 0

@@ -5,7 +5,7 @@ module rom
 	output reg [(DATA_WIDTH-1):0] o_data
 );
 
-	reg [DATA_WIDTH-1:0] mem [ADDR_WIDTH-1:0];
+	reg [DATA_WIDTH-1:0] mem [2**ADDR_WIDTH-1:0];
 	
 	always @(i_addr)
 		o_data = mem[i_addr];
