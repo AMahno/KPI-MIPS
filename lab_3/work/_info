@@ -1,0 +1,52 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+dC:/intelFPGA_pro/projects/MIPS/lab_2
+vcontrol
+!s110 1540154868
+!i10b 1
+!s100 kgoiPB4z]2h8g^S@0NUG32
+IQNm=z62mP[3VSWQZl1iS31
+Z0 VDg1SIo80bB@j0V0VzS_@n1
+Z1 dC:/intelFPGA_pro/projects/MIPS/lab_3
+w1540154844
+8C:/intelFPGA_pro/projects/MIPS/lab_3/control.v
+FC:/intelFPGA_pro/projects/MIPS/lab_3/control.v
+L0 1
+Z2 OV;L;10.5c;63
+r1
+!s85 0
+31
+!s108 1540154867.000000
+!s107 C:/intelFPGA_pro/projects/MIPS/lab_3/control.v|
+!s90 -reportprogress|300|-work|work|-stats=none|C:/intelFPGA_pro/projects/MIPS/lab_3/control.v|
+!i113 1
+Z3 o-work work
+Z4 tCvgOpt 0
+vtb
+!s110 1540154257
+!i10b 1
+!s100 o[8DVG26TBO<j<Zg@c86T3
+IRNESK9@1e4SlZ@9CMlMnn0
+R0
+R1
+w1540154232
+8C:\intelFPGA_pro\projects\MIPS\lab_3\tb.v
+FC:\intelFPGA_pro\projects\MIPS\lab_3\tb.v
+L0 3
+R2
+r1
+!s85 0
+31
+!s108 1540154257.000000
+!s107 control.v|C:\intelFPGA_pro\projects\MIPS\lab_3\tb.v|
+!s90 -reportprogress|300|-work|work|-stats=none|C:\intelFPGA_pro\projects\MIPS\lab_3\tb.v|
+!i113 1
+R3
+R4

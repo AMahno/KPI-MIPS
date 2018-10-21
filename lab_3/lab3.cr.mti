@@ -1,0 +1,16 @@
+C:/intelFPGA_pro/projects/MIPS/lab_3/tb.v {1 {vlog -work work -stats=none {C:\intelFPGA_pro\projects\MIPS\lab_3\tb.v}
+Model Technology ModelSim - Intel FPGA Edition vlog 10.5c Compiler 2017.01 Jan 23 2017
+-- Compiling module control
+-- Compiling module tb
+
+Top level modules:
+	tb
+
+} {} {}} C:/intelFPGA_pro/projects/MIPS/lab_3/control.v {1 {vlog -work work -stats=none C:/intelFPGA_pro/projects/MIPS/lab_3/control.v
+Model Technology ModelSim - Intel FPGA Edition vlog 10.5c Compiler 2017.01 Jan 23 2017
+-- Compiling module control
+
+Top level modules:
+	control
+
+} {} {}}

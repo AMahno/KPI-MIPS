@@ -1,0 +1,12 @@
+beq
+j
+sw
+lw
+add
+sub
+or 
+and
+addu
+subu
+addi
+addiu
