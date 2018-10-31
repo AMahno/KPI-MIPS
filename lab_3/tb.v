@@ -28,6 +28,7 @@ module tb();
 		tb_opcode <= #20 6'h23;
 		tb_opcode <= #30 6'h04;
 		tb_opcode <= #40 6'h02;
-		tb_opcode <= #50 6'hff;
+		tb_opcode <= #50 6'h08;
+		tb_opcode <= #60 6'hff;
 	end
 endmodule

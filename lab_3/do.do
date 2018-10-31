@@ -9,6 +9,7 @@ radix define opcode {
 	6'h23 "LW"
 	6'h04 "BEQ"
 	6'h02 "JUMP"
+	6'h08 "ADDI"
 }
 
 

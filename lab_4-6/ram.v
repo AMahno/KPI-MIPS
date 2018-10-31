@@ -11,9 +11,8 @@ module ram(i_clk, i_addr, i_data, i_we, o_data);
 	
 	always @(posedge i_clk) begin
 		if(i_we) mem[i_addr] <= i_data;
-		
 	end
 	
-	assign o_data <= mem[i_addr];
+	assign o_data = mem[i_addr];
   
 endmodule
