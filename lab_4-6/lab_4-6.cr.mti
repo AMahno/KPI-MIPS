@@ -5,7 +5,7 @@ Model Technology ModelSim - Intel FPGA Edition vlog 10.5c Compiler 2017.01 Jan 2
 Top level modules:
 	alu
 
-} {} {}} C:/intelFPGA_pro/projects/MIPS/lab_4-6/aluControl.v {1 {vlog -work work -stats=none C:/intelFPGA_pro/projects/MIPS/lab_4-6/aluControl.v
+} {} {}} C:/intelFPGA_pro/projects/MIPS/lab_4-6/aluControl.v {1 {vlog -work work -stats=none {C:\intelFPGA_pro\projects\MIPS\lab_4-6\aluControl.v}
 Model Technology ModelSim - Intel FPGA Edition vlog 10.5c Compiler 2017.01 Jan 23 2017
 -- Compiling module aluControl
 
@@ -18,6 +18,23 @@ Model Technology ModelSim - Intel FPGA Edition vlog 10.5c Compiler 2017.01 Jan 2
 
 Top level modules:
 	pc
+
+} {} {}} C:/intelFPGA_pro/projects/MIPS/lab_4-6/tb.v {1 {vlog -work work -stats=none {C:\intelFPGA_pro\projects\MIPS\lab_4-6\tb.v}
+Model Technology ModelSim - Intel FPGA Edition vlog 10.5c Compiler 2017.01 Jan 23 2017
+-- Compiling module pc
+-- Compiling module rom
+-- Compiling module regFile
+-- Compiling module mux2in1
+-- Compiling module alu
+-- Compiling module signExtend
+-- Compiling module ram
+-- Compiling module control
+-- Compiling module aluControl
+-- Compiling module proc
+-- Compiling module tb
+
+Top level modules:
+	tb
 
 } {} {}} C:/intelFPGA_pro/projects/MIPS/lab_4-6/regFile.v {1 {vlog -work work -stats=none C:/intelFPGA_pro/projects/MIPS/lab_4-6/regFile.v
 Model Technology ModelSim - Intel FPGA Edition vlog 10.5c Compiler 2017.01 Jan 23 2017
@@ -61,19 +78,18 @@ Model Technology ModelSim - Intel FPGA Edition vlog 10.5c Compiler 2017.01 Jan 2
 Top level modules:
 	mux2in1
 
+} {} {}} C:/intelFPGA_pro/projects/MIPS/lab_4-6/signExtend.v {1 {vlog -work work -stats=none {C:\intelFPGA_pro\projects\MIPS\lab_4-6\signExtend.v}
+Model Technology ModelSim - Intel FPGA Edition vlog 10.5c Compiler 2017.01 Jan 23 2017
+-- Compiling module signExtend
+
+Top level modules:
+	signExtend
+
 } {} {}} C:/intelFPGA_pro/projects/MIPS/lab_4-6/control.v {1 {vlog -work work -stats=none C:/intelFPGA_pro/projects/MIPS/lab_4-6/control.v
 Model Technology ModelSim - Intel FPGA Edition vlog 10.5c Compiler 2017.01 Jan 23 2017
 -- Compiling module control
 
 Top level modules:
 	control
-
-} {} {}} C:/intelFPGA_pro/projects/MIPS/lab_4-6/signExtend.v {2 {vlog -work work -stats=none C:/intelFPGA_pro/projects/MIPS/lab_4-6/signExtend.v
-Model Technology ModelSim - Intel FPGA Edition vlog 10.5c Compiler 2017.01 Jan 23 2017
--- Compiling module signExtend
-** Warning: (vlog-2121) C:/intelFPGA_pro/projects/MIPS/lab_4-6/signExtend.v(6): Illegal concatenation of an unsized constant. Will treat it as a 32-bit value.
-
-Top level modules:
-	signExtend
 
 } {} {}}

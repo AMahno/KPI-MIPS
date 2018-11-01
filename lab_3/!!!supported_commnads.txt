@@ -1,12 +1,12 @@
-beq
-j
-sw
-lw
-add
-sub
-or 
-and
+beq - runs
+j - runs
+sw - runs
+lw - runs
+add - runs
+sub - runs
+or - runs
+and - runs
 addu
 subu
-addi
+addi - runs
 addiu

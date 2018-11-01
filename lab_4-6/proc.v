@@ -25,7 +25,7 @@ module proc(clk, reset);
 	wire jump;
 	wire branch;
 	wire memToReg;
-	wire aluOp;
+	wire [1:0] aluOp;
 	wire memWrite;
 	wire aluSrc;
 	wire regWrite;
@@ -41,17 +41,17 @@ module proc(clk, reset);
 	
 	wire zf;
 	
-	wire [29:0] pc_to_rom;
-	wire [29:0] next_pc = pc_to_rom + 1;
+	wire [31:0] pc_to_rom;
+	wire [31:0] next_pc = pc_to_rom + 1;
 	wire PCSrc = jump | (branch & zf) | (branch & ~zf);
-	wire [29:0] jump_addr = jump ? ({next_pc[29:26], imm26}) : (next_pc + {14{imm16[15]}});
-	wire [29:0] mux_to_pc;
+	wire [31:0] jump_addr = jump ? ({next_pc[31:26], imm26}) : (next_pc + {{14{imm16[15]}}, imm16});
 	
-	mux2in1 pc_mux(.i_dat0(next_pc), .i_dat1(jump_addr), .i_control(PCSrc), .o_dat(jump_addr));
+	wire [31:0] mux_to_pc;
+	mux2in1 pc_mux(.i_dat0(next_pc), .i_dat1(jump_addr), .i_control(PCSrc), .o_dat(mux_to_pc));
 	
-	pc pc_INST(.i_clk(clk), .i_rst_n(reset), .i_pc(jump_addr), .o_pc(pc_to_rom));
+	pc pc_INST(.i_clk(clk), .i_rst_n(reset), .i_pc(mux_to_pc), .o_pc(pc_to_rom));
 	
-	rom rom_INST(.i_addr(pc_to_rom), .o_data(instruction));
+	rom rom_INST(.i_addr(pc_to_rom[7:0]), .o_data(instruction));
 	
 	wire [4:0] write_addr;
 	mux2in1 write_addr_mux(.i_dat0(rt), .i_dat1(rd), .i_control(regDst), .o_dat(write_addr));

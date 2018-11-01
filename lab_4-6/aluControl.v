@@ -1,16 +1,18 @@
 module aluControl(i_aluOp, i_func, o_aluControl);
  
-	input       [1:0]   i_aluOp;
+	input       [5:0]   i_aluOp;
 	input       [5:0]   i_func;
 	output  reg [3:0]   o_aluControl;
 	
-	localparam LWSW = 2'b00, BE = 2'b01, RTYPE = 2'b10;
+	localparam LW = 6'h23, SW = 6'h2b, BE = 6'h04, RTYPE = 6'b0, ADDI  = 6'h08;
 	localparam ADD = 4'b0010, SUB = 4'b0110, AND = 4'b0000, OR = 4'b0001, SOLT = 4'b0111;
 	
 	always @(i_aluOp, i_func) begin
 		case(i_aluOp)
-			LWSW: o_aluControl = ADD;
+			LW: o_aluControl = ADD;
+			SW: o_aluControl = ADD;
 			BE: o_aluControl = SUB;
+			ADDI: o_aluControl = ADD;
 			RTYPE:
 				case(i_func)
 					6'b100000: o_aluControl = ADD;
