@@ -9,279 +9,279 @@ z2
 cModel Technology
 dC:/intelFPGA_pro/projects/MIPS/lab_2
 vadder
-!s110 1541019165
+Z0 !s110 1545164277
 !i10b 1
 !s100 WDXdF`FJlN^4Zl[6WZK8F3
 IcEeRIzAZUgdb?^F_TTEz80
-Z0 VDg1SIo80bB@j0V0VzS_@n1
-Z1 dC:/intelFPGA_pro/projects/MIPS/lab_4-6
+Z1 VDg1SIo80bB@j0V0VzS_@n1
+Z2 dC:/intelFPGA_pro/projects/MIPS/lab_4-6
 w1538769384
 8C:/intelFPGA_pro/projects/MIPS/lab_4-6/adder.v
 FC:/intelFPGA_pro/projects/MIPS/lab_4-6/adder.v
 L0 1
-Z2 OV;L;10.5c;63
+Z3 OV;L;10.5c;63
 r1
 !s85 0
 31
-!s108 1541019164.000000
+!s108 1545164277.000000
 !s107 C:/intelFPGA_pro/projects/MIPS/lab_4-6/adder.v|
 !s90 -reportprogress|300|-work|work|-stats=none|C:/intelFPGA_pro/projects/MIPS/lab_4-6/adder.v|
 !i113 1
-Z3 o-work work
-Z4 tCvgOpt 0
+Z4 o-work work
+Z5 tCvgOpt 0
 valu
-Z5 !s110 1541084677
+Z6 !s110 1545164278
 !i10b 1
 !s100 _G7hV@CZo4^UM_:ZRL`P>0
 I7KiA>W3LUCO5Y[]:Fb^V_3
-R0
 R1
-w1541019038
+R2
+w1543775645
 8alu.v
 Falu.v
 L0 1
-R2
+R3
 r1
 !s85 0
 31
-Z6 !s108 1541084677.000000
-Z7 !s107 aluControl.v|control.v|ram.v|signExtend.v|alu.v|mux2in1.v|regFile.v|rom.v|pc.v|C:\intelFPGA_pro\projects\MIPS\lab_4-6\proc.v|
-Z8 !s90 -reportprogress|300|-work|work|-stats=none|C:\intelFPGA_pro\projects\MIPS\lab_4-6\proc.v|
+Z7 !s108 1545164278.000000
+Z8 !s107 aluControl.v|control.v|ram.v|signExtend.v|alu.v|mux2in1.v|regFile.v|rom.v|pc.v|C:/intelFPGA_pro/projects/MIPS/lab_4-6/proc.v|
+Z9 !s90 -reportprogress|300|-work|work|-stats=none|C:/intelFPGA_pro/projects/MIPS/lab_4-6/proc.v|
 !i113 1
-R3
 R4
-valuControl
 R5
+valuControl
+R6
 !i10b 1
 !s100 ];fG^cTdSY[ilDSCJ^Xeh0
 Io<@7g1Mm4:z`Zi75I^Jag0
-R0
 R1
+R2
 w1541081942
 8aluControl.v
 FaluControl.v
 L0 1
-R2
+R3
 r1
 !s85 0
 31
-R6
 R7
 R8
+R9
 !i113 1
-R3
 R4
+R5
 nalu@control
 vcontrol
-R5
+R6
 !i10b 1
 !s100 BbjX8d<=P>@aZhLYKf15@2
 IR@ml?N[c`f48PdTQdcUL^3
-R0
 R1
+R2
 w1540198455
 8control.v
 Fcontrol.v
 L0 1
-R2
+R3
 r1
 !s85 0
 31
-R6
 R7
 R8
+R9
 !i113 1
-R3
 R4
-vmux2in1
 R5
+vmux2in1
+R6
 !i10b 1
 !s100 1dRg[W70N;zWJDjLK:C:J3
 IMUE1MD4O0dk<32dGeOo]j1
-R0
 R1
+R2
 w1538330729
 8mux2in1.v
 Fmux2in1.v
 L0 1
-R2
+R3
 r1
 !s85 0
 31
-R6
 R7
 R8
+R9
 !i113 1
-R3
 R4
-vpc
 R5
+vpc
+R6
 !i10b 1
 !s100 J__^A_Ml0hjXc;iMWO?AY3
 IBh92kef4lGna:MXT7h:_93
-R0
 R1
+R2
 w1538386537
 8pc.v
 Fpc.v
 L0 1
-R2
+R3
 r1
 !s85 0
 31
-R6
 R7
 R8
+R9
 !i113 1
-R3
 R4
+R5
 vproc
-R5
+R6
 !i10b 1
-!s100 8TB9DTbiQT`?6gEz62j@l3
-IHiSC89hL=BBSRn2a@OnEn3
-R0
+!s100 Hn2TSZ=loBeM>R?jndJ@]2
+I;1dNQ5IC[kUSIm>?4LW;11
 R1
-w1541084673
-8C:\intelFPGA_pro\projects\MIPS\lab_4-6\proc.v
-FC:\intelFPGA_pro\projects\MIPS\lab_4-6\proc.v
+R2
+w1543776244
+8C:/intelFPGA_pro/projects/MIPS/lab_4-6/proc.v
+FC:/intelFPGA_pro/projects/MIPS/lab_4-6/proc.v
 L0 11
-R2
+R3
 r1
 !s85 0
 31
-R6
 R7
 R8
+R9
 !i113 1
-R3
 R4
+R5
 vram
-R5
+R6
 !i10b 1
-!s100 B^LPd3<=YRdUPMlh[S1^13
-IVF]?DDPng8d>:DF`CUjV]3
-R0
+!s100 R?42TQk;JPiLVLDmf85KY1
+I715C4Bo_[k?zkPDBKD:1@0
 R1
-w1541019195
-8ram.v
-Fram.v
-L0 1
 R2
+w1543780488
+8C:/intelFPGA_pro/projects/MIPS/lab_4-6/ram.v
+FC:/intelFPGA_pro/projects/MIPS/lab_4-6/ram.v
+L0 1
+R3
 r1
 !s85 0
 31
-R6
 R7
-R8
+!s107 C:/intelFPGA_pro/projects/MIPS/lab_4-6/ram.v|
+!s90 -reportprogress|300|-work|work|-stats=none|C:/intelFPGA_pro/projects/MIPS/lab_4-6/ram.v|
 !i113 1
-R3
 R4
-vregFile
 R5
+vregFile
+Z10 !s110 1545164279
 !i10b 1
 !s100 lVFfNPRR8FGA=nQ_G7i_:3
-I>7=]EAJJn;3JgM8cY0N?I1
-R0
+IJ8bgXj@oQJQgIbY`hSN`X2
 R1
-w1539074477
-8regFile.v
-FregFile.v
-L0 1
 R2
+w1539074477
+8C:/intelFPGA_pro/projects/MIPS/lab_4-6/regFile.v
+FC:/intelFPGA_pro/projects/MIPS/lab_4-6/regFile.v
+L0 1
+R3
 r1
 !s85 0
 31
-R6
-R7
-R8
+Z11 !s108 1545164279.000000
+!s107 C:/intelFPGA_pro/projects/MIPS/lab_4-6/regFile.v|
+!s90 -reportprogress|300|-work|work|-stats=none|C:/intelFPGA_pro/projects/MIPS/lab_4-6/regFile.v|
 !i113 1
-R3
 R4
+R5
 nreg@file
 vrom
-R5
+R10
 !i10b 1
-!s100 CA69=`Cz]M41:nmF<7elF0
-I`^z;RZfZYWEOD8@7LzNB<3
-R0
+!s100 OgJG?;nK9j26T_RWZh^Ke3
+ImoJckjM1Ih6k07SCL2JaL3
 R1
-w1539979988
-8rom.v
-From.v
-L0 1
 R2
+w1543864157
+8C:/intelFPGA_pro/projects/MIPS/lab_4-6/rom.v
+FC:/intelFPGA_pro/projects/MIPS/lab_4-6/rom.v
+L0 1
+R3
 r1
 !s85 0
 31
-R6
-R7
-R8
+R11
+!s107 C:/intelFPGA_pro/projects/MIPS/lab_4-6/rom.v|
+!s90 -reportprogress|300|-work|work|-stats=none|C:/intelFPGA_pro/projects/MIPS/lab_4-6/rom.v|
 !i113 1
-R3
 R4
+R5
 vshiftLeftBy2
-!s110 1541019167
+R10
 !i10b 1
 !s100 8HXfmm=_hnY2kkm^cW<6:2
 IZkP1RzIA>::;U0jXcVJL]2
-R0
 R1
+R2
 w1538331309
 8C:/intelFPGA_pro/projects/MIPS/lab_4-6/shiftLeftBy2.v
 FC:/intelFPGA_pro/projects/MIPS/lab_4-6/shiftLeftBy2.v
 L0 1
-R2
+R3
 r1
 !s85 0
 31
-!s108 1541019166.000000
+R11
 !s107 C:/intelFPGA_pro/projects/MIPS/lab_4-6/shiftLeftBy2.v|
 !s90 -reportprogress|300|-work|work|-stats=none|C:/intelFPGA_pro/projects/MIPS/lab_4-6/shiftLeftBy2.v|
 !i113 1
-R3
 R4
+R5
 nshift@left@by2
 vsignExtend
-R5
+R10
 !i10b 1
 !s100 2oojM8KJ6edKeH;kO:OAS2
-Iz?iEcSEgAAm5MjGgn[A>g0
-R0
+I8ASWMGezKW6?ETB;1BWA92
 R1
-w1541022379
-8signExtend.v
-FsignExtend.v
-L0 1
 R2
+w1541022379
+8C:/intelFPGA_pro/projects/MIPS/lab_4-6/signExtend.v
+FC:/intelFPGA_pro/projects/MIPS/lab_4-6/signExtend.v
+L0 1
+R3
 r1
 !s85 0
 31
-R6
-R7
-R8
+R11
+!s107 C:/intelFPGA_pro/projects/MIPS/lab_4-6/signExtend.v|
+!s90 -reportprogress|300|-work|work|-stats=none|C:/intelFPGA_pro/projects/MIPS/lab_4-6/signExtend.v|
 !i113 1
-R3
 R4
+R5
 nsign@extend
 vtb
-!s110 1541081234
+R0
 !i10b 1
 !s100 m8SQ:Q51NPa3BaW:U>mSQ2
-Iz;QN^g19]5[3Yb7je]Z9M0
-R0
+I:NDMeQgZ:zJ;Ub;L]bJX=2
 R1
-w1541081232
-8C:\intelFPGA_pro\projects\MIPS\lab_4-6\tb.v
-FC:\intelFPGA_pro\projects\MIPS\lab_4-6\tb.v
-L0 4
 R2
+w1541081232
+8C:/intelFPGA_pro/projects/MIPS/lab_4-6/tb.v
+FC:/intelFPGA_pro/projects/MIPS/lab_4-6/tb.v
+L0 4
+R3
 r1
 !s85 0
 31
-!s108 1541081234.000000
-!s107 aluControl.v|control.v|ram.v|signExtend.v|alu.v|mux2in1.v|regFile.v|rom.v|pc.v|proc.v|C:\intelFPGA_pro\projects\MIPS\lab_4-6\tb.v|
-!s90 -reportprogress|300|-work|work|-stats=none|C:\intelFPGA_pro\projects\MIPS\lab_4-6\tb.v|
+!s108 1545164276.000000
+!s107 aluControl.v|control.v|ram.v|signExtend.v|alu.v|mux2in1.v|regFile.v|rom.v|pc.v|proc.v|C:/intelFPGA_pro/projects/MIPS/lab_4-6/tb.v|
+!s90 -reportprogress|300|-work|work|-stats=none|C:/intelFPGA_pro/projects/MIPS/lab_4-6/tb.v|
 !i113 1
-R3
 R4
+R5

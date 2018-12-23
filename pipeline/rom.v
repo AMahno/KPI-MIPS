@@ -11,6 +11,6 @@ module rom
 		o_data = mem[i_addr];
 		
 	initial
-		$readmemh("mars.dat", mem);
+		$readmemh("rom.dat", mem);
 		
 endmodule

@@ -1,0 +1,329 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+dC:/intelFPGA_pro/projects/MIPS/lab_4-6
+vadder
+!s110 1545165311
+!i10b 1
+!s100 WDXdF`FJlN^4Zl[6WZK8F3
+Ilha8SkZTW<8f;ZP=[WAKZ1
+Z0 VDg1SIo80bB@j0V0VzS_@n1
+Z1 dC:/intelFPGA_pro/projects/MIPS/pipeline
+w1538769384
+8C:/intelFPGA_pro/projects/MIPS/pipeline/adder.v
+FC:/intelFPGA_pro/projects/MIPS/pipeline/adder.v
+L0 1
+Z2 OV;L;10.5c;63
+r1
+!s85 0
+31
+!s108 1545165311.000000
+!s107 C:/intelFPGA_pro/projects/MIPS/pipeline/adder.v|
+!s90 -reportprogress|300|-work|work|-stats=none|C:/intelFPGA_pro/projects/MIPS/pipeline/adder.v|
+!i113 1
+Z3 o-work work
+Z4 tCvgOpt 0
+valu
+Z5 !s110 1545578078
+!i10b 1
+!s100 _G7hV@CZo4^UM_:ZRL`P>0
+I7KiA>W3LUCO5Y[]:Fb^V_3
+R0
+R1
+w1543775645
+8alu.v
+Falu.v
+L0 1
+R2
+r1
+!s85 0
+31
+Z6 !s108 1545578078.000000
+Z7 !s107 reg32.v|aluControl.v|control.v|ram.v|signExtend.v|alu.v|mux2in1.v|regFile.v|rom.v|pc.v|C:/intelFPGA_pro/projects/MIPS/pipeline/proc.v|
+Z8 !s90 -reportprogress|300|-work|work|-stats=none|C:/intelFPGA_pro/projects/MIPS/pipeline/proc.v|
+!i113 1
+R3
+R4
+valuControl
+R5
+!i10b 1
+!s100 ];fG^cTdSY[ilDSCJ^Xeh0
+Io<@7g1Mm4:z`Zi75I^Jag0
+R0
+R1
+w1541081942
+8aluControl.v
+FaluControl.v
+L0 1
+R2
+r1
+!s85 0
+31
+R6
+R7
+R8
+!i113 1
+R3
+R4
+nalu@control
+vcontrol
+R5
+!i10b 1
+!s100 BbjX8d<=P>@aZhLYKf15@2
+IR@ml?N[c`f48PdTQdcUL^3
+R0
+R1
+w1540198455
+8control.v
+Fcontrol.v
+L0 1
+R2
+r1
+!s85 0
+31
+R6
+R7
+R8
+!i113 1
+R3
+R4
+vmux2in1
+R5
+!i10b 1
+!s100 1dRg[W70N;zWJDjLK:C:J3
+IMUE1MD4O0dk<32dGeOo]j1
+R0
+R1
+w1538330729
+8mux2in1.v
+Fmux2in1.v
+L0 1
+R2
+r1
+!s85 0
+31
+R6
+R7
+R8
+!i113 1
+R3
+R4
+vmux4in1
+!s110 1545213820
+!i10b 1
+!s100 ;F[_IamL>iik5BVH@Mh9Y1
+ID2M`TZIGoB98Mi6id?mY@0
+R0
+R1
+w1545213817
+8C:/intelFPGA_pro/projects/MIPS/pipeline/mux4in1.v
+FC:/intelFPGA_pro/projects/MIPS/pipeline/mux4in1.v
+L0 1
+R2
+r1
+!s85 0
+31
+!s108 1545213820.000000
+!s107 C:/intelFPGA_pro/projects/MIPS/pipeline/mux4in1.v|
+!s90 -reportprogress|300|-work|work|-stats=none|C:/intelFPGA_pro/projects/MIPS/pipeline/mux4in1.v|
+!i113 1
+R3
+R4
+vpc
+R5
+!i10b 1
+!s100 P;M`AVfJ8V?9lBJ`V_eT^3
+I=C>cSaEfTDlDjYdL10K9i1
+R0
+R1
+w1545577194
+8pc.v
+Fpc.v
+L0 1
+R2
+r1
+!s85 0
+31
+R6
+R7
+R8
+!i113 1
+R3
+R4
+vproc
+R5
+!i10b 1
+!s100 6O``N[8=g143h4>0P76iB3
+I2456D:Rh7MG;JGSglaJ4;1
+R0
+R1
+w1545578075
+8C:/intelFPGA_pro/projects/MIPS/pipeline/proc.v
+FC:/intelFPGA_pro/projects/MIPS/pipeline/proc.v
+L0 12
+R2
+r1
+!s85 0
+31
+R6
+R7
+R8
+!i113 1
+R3
+R4
+vram
+!s110 1545578890
+!i10b 1
+!s100 of?Hj7=dd6`QZLkKkQ3Zj1
+IG?`nndbg60mk4aE2CN4510
+R0
+R1
+w1545578888
+8C:/intelFPGA_pro/projects/MIPS/pipeline/ram.v
+FC:/intelFPGA_pro/projects/MIPS/pipeline/ram.v
+L0 1
+R2
+r1
+!s85 0
+31
+!s108 1545578890.000000
+!s107 C:/intelFPGA_pro/projects/MIPS/pipeline/ram.v|
+!s90 -reportprogress|300|-work|work|-stats=none|C:/intelFPGA_pro/projects/MIPS/pipeline/ram.v|
+!i113 1
+R3
+R4
+vreg32
+R5
+!i10b 1
+!s100 Z2_nz9>_6?^C8_b_eNPVa0
+IV`BIYBIoc^<4N18^G^Z1Z1
+R0
+R1
+w1545165376
+8reg32.v
+Freg32.v
+L0 1
+R2
+r1
+!s85 0
+31
+R6
+R7
+R8
+!i113 1
+R3
+R4
+vregFile
+R5
+!i10b 1
+!s100 lVFfNPRR8FGA=nQ_G7i_:3
+I>7=]EAJJn;3JgM8cY0N?I1
+R0
+R1
+w1539074477
+8regFile.v
+FregFile.v
+L0 1
+R2
+r1
+!s85 0
+31
+R6
+R7
+R8
+!i113 1
+R3
+R4
+nreg@file
+vrom
+R5
+!i10b 1
+!s100 ZIJgD;FPPZebMBY=`18mP1
+IXRIR?Nzm@69CIkcZ<c`bS3
+R0
+R1
+w1545576539
+8rom.v
+From.v
+L0 1
+R2
+r1
+!s85 0
+31
+R6
+R7
+R8
+!i113 1
+R3
+R4
+vshiftLeftBy2
+!s110 1545165313
+!i10b 1
+!s100 8HXfmm=_hnY2kkm^cW<6:2
+I`mknS0M9o?AzZmD^anKZ_2
+R0
+R1
+w1538331309
+8C:/intelFPGA_pro/projects/MIPS/pipeline/shiftLeftBy2.v
+FC:/intelFPGA_pro/projects/MIPS/pipeline/shiftLeftBy2.v
+L0 1
+R2
+r1
+!s85 0
+31
+!s108 1545165313.000000
+!s107 C:/intelFPGA_pro/projects/MIPS/pipeline/shiftLeftBy2.v|
+!s90 -reportprogress|300|-work|work|-stats=none|C:/intelFPGA_pro/projects/MIPS/pipeline/shiftLeftBy2.v|
+!i113 1
+R3
+R4
+nshift@left@by2
+vsignExtend
+R5
+!i10b 1
+!s100 2oojM8KJ6edKeH;kO:OAS2
+Iz?iEcSEgAAm5MjGgn[A>g0
+R0
+R1
+w1541022379
+8signExtend.v
+FsignExtend.v
+L0 1
+R2
+r1
+!s85 0
+31
+R6
+R7
+R8
+!i113 1
+R3
+R4
+nsign@extend
+vtb
+!s110 1545576917
+!i10b 1
+!s100 gdKd9g]AJKo?646_C<[321
+I`:6]I8Xkn;9;3dFkmbYBc0
+R0
+R1
+w1545576915
+8C:/intelFPGA_pro/projects/MIPS/pipeline/tb.v
+FC:/intelFPGA_pro/projects/MIPS/pipeline/tb.v
+L0 4
+R2
+r1
+!s85 0
+31
+!s108 1545576917.000000
+!s107 reg32.v|aluControl.v|control.v|ram.v|signExtend.v|alu.v|mux2in1.v|regFile.v|rom.v|pc.v|proc.v|C:/intelFPGA_pro/projects/MIPS/pipeline/tb.v|
+!s90 -reportprogress|300|-work|work|-stats=none|C:/intelFPGA_pro/projects/MIPS/pipeline/tb.v|
+!i113 1
+R3
+R4

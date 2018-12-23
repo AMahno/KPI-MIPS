@@ -1,0 +1,13 @@
+20120005 //addi s2 zero 0x5
+20110006 //addi s1 zero 0x6
+02329820 //add s3 s1 s2
+0272A022 //sub s4 s3 s2
+0272A825 //or s5 s3 s2
+0272B024 //and s6 s3 s2
+AE720000 //sw s2 0x0 s3
+8E770000 //lw s7 0x0 s3
+//12F20002 //beq s7 s2 0x2
+//12320001 //beq s1 s2 0x1
+08000000 //j 0x0
+AE720000 //sw s2 0x0 s3
+8E770000 //lw s7 0x0 s3

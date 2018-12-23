@@ -43,7 +43,7 @@ module proc(clk, reset);
 	
 	wire [31:0] pc_to_rom;
 	wire [31:0] next_pc = pc_to_rom + 1;
-	wire PCSrc = jump | (branch & zf) | (branch & ~zf);
+	wire PCSrc = jump | (branch & zf);
 	wire [31:0] jump_addr = jump ? ({next_pc[31:26], imm26}) : (next_pc + {{14{imm16[15]}}, imm16});
 	
 	wire [31:0] mux_to_pc;

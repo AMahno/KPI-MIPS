@@ -4,13 +4,9 @@
 module tb();
 	reg tb_clk = 1'b0;
 	reg tb_reset;
-	proc proc_INST(.clk(tb_clk), .reset(tb_reset));
+	proc proc_INST(.i_clk(tb_clk));
 	
 	always
 		#5 tb_clk <= !tb_clk;
 		
-	initial begin
-		tb_reset <= 1'b0;
-		tb_reset <= #5 1'b1;
-	end
 endmodule

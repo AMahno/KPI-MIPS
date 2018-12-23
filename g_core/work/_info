@@ -1,0 +1,117 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+dC:/intelFPGA_pro/projects/MIPS/pipeline
+vID
+Z0 !s110 1545489982
+!i10b 1
+!s100 5CX61`00[9Tj@JX=6Z;G81
+I8OaU5@?J4ZH_LH2KMf3VF1
+Z1 VDg1SIo80bB@j0V0VzS_@n1
+Z2 dC:/intelFPGA_pro/projects/MIPS/g_core
+w1545488907
+8ID.v
+FID.v
+L0 1
+Z3 OV;L;10.5c;63
+r1
+!s85 0
+31
+Z4 !s108 1545489982.000000
+Z5 !s107 regFile.v|ID.v|rom.v|C:/intelFPGA_pro/projects/MIPS/g_core/proc.v|
+Z6 !s90 -reportprogress|300|-work|work|-stats=none|C:/intelFPGA_pro/projects/MIPS/g_core/proc.v|
+!i113 1
+Z7 o-work work
+Z8 tCvgOpt 0
+n@i@d
+vproc
+R0
+!i10b 1
+!s100 OYz:e`VkWN5jiYT:6<MS41
+IS>n9W>jh`Jgk9f7MjO`gG2
+R1
+R2
+w1545489978
+8C:/intelFPGA_pro/projects/MIPS/g_core/proc.v
+FC:/intelFPGA_pro/projects/MIPS/g_core/proc.v
+L0 5
+R3
+r1
+!s85 0
+31
+R4
+R5
+R6
+!i113 1
+R7
+R8
+vregFile
+R0
+!i10b 1
+!s100 cbG=cB06jhmJl9Z2gP?1k2
+IRaN@eEDbCLH>@hS1@@Cff1
+R1
+R2
+w1545489963
+8regFile.v
+FregFile.v
+L0 1
+R3
+r1
+!s85 0
+31
+R4
+R5
+R6
+!i113 1
+R7
+R8
+nreg@file
+vrom
+R0
+!i10b 1
+!s100 a=oCLc8Tm]8a6TZmGzQ^01
+IXH1ZlBfFg^JRJ[X;EO<E51
+R1
+R2
+w1545485965
+8rom.v
+From.v
+L0 1
+R3
+r1
+!s85 0
+31
+R4
+R5
+R6
+!i113 1
+R7
+R8
+vtb
+!s110 1545486546
+!i10b 1
+!s100 2RPa``8c4M]354IQCz[f:3
+I1h1UWiOkobRnj:E;?RR7L1
+R1
+R2
+w1545486543
+8C:\intelFPGA_pro\projects\MIPS\g_core\tb.v
+FC:\intelFPGA_pro\projects\MIPS\g_core\tb.v
+L0 4
+R3
+r1
+!s85 0
+31
+!s108 1545486546.000000
+!s107 regFile.v|ID.v|rom.v|proc.v|C:\intelFPGA_pro\projects\MIPS\g_core\tb.v|
+!s90 -reportprogress|300|-work|work|-stats=none|C:\intelFPGA_pro\projects\MIPS\g_core\tb.v|
+!i113 1
+R7
+R8

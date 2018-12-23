@@ -1,0 +1,7 @@
+20100001 //addi s0 zero 0x1
+20080002 //addi t0 zero 0x2
+//20090002 //addi t1 zero 0x2
+02085020 //add t2 s0 t0
+AD480000 //sw t0 0x0 t2
+8D4B0000 //lw t3 0x0 t2
+08000000 //j 0x0

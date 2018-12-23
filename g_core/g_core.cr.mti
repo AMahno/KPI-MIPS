@@ -1,0 +1,43 @@
+C:/intelFPGA_pro/projects/MIPS/g_core/proc.v {1 {vlog -work work -stats=none C:/intelFPGA_pro/projects/MIPS/g_core/proc.v
+Model Technology ModelSim - Intel FPGA Edition vlog 10.5c Compiler 2017.01 Jan 23 2017
+-- Compiling module rom
+-- Compiling module ID
+-- Compiling module regFile
+-- Compiling module proc
+
+Top level modules:
+	proc
+
+} {} {}} C:/intelFPGA_pro/projects/MIPS/g_core/ID.v {1 {vlog -work work -stats=none C:/intelFPGA_pro/projects/MIPS/g_core/ID.v
+Model Technology ModelSim - Intel FPGA Edition vlog 10.5c Compiler 2017.01 Jan 23 2017
+-- Compiling module ID
+
+Top level modules:
+	ID
+
+} {} {}} C:/intelFPGA_pro/projects/MIPS/g_core/regFile.v {1 {vlog -work work -stats=none C:/intelFPGA_pro/projects/MIPS/g_core/regFile.v
+Model Technology ModelSim - Intel FPGA Edition vlog 10.5c Compiler 2017.01 Jan 23 2017
+-- Compiling module regFile
+
+Top level modules:
+	regFile
+
+} {} {}} C:/intelFPGA_pro/projects/MIPS/g_core/tb.v {1 {vlog -work work -stats=none {C:\intelFPGA_pro\projects\MIPS\g_core\tb.v}
+Model Technology ModelSim - Intel FPGA Edition vlog 10.5c Compiler 2017.01 Jan 23 2017
+-- Compiling module rom
+-- Compiling module ID
+-- Compiling module regFile
+-- Compiling module proc
+-- Compiling module tb
+
+Top level modules:
+	tb
+
+} {} {}} C:/intelFPGA_pro/projects/MIPS/g_core/rom.v {1 {vlog -work work -stats=none {C:\intelFPGA_pro\projects\MIPS\g_core\rom.v}
+Model Technology ModelSim - Intel FPGA Edition vlog 10.5c Compiler 2017.01 Jan 23 2017
+-- Compiling module rom
+
+Top level modules:
+	rom
+
+} {} {}}

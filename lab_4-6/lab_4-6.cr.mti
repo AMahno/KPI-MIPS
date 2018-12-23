@@ -19,6 +19,13 @@ Model Technology ModelSim - Intel FPGA Edition vlog 10.5c Compiler 2017.01 Jan 2
 Top level modules:
 	pc
 
+} {} {}} C:/intelFPGA_pro/projects/MIPS/lab_4-6/rom.v {1 {vlog -work work -stats=none {C:\intelFPGA_pro\projects\MIPS\lab_4-6\rom.v}
+Model Technology ModelSim - Intel FPGA Edition vlog 10.5c Compiler 2017.01 Jan 23 2017
+-- Compiling module rom
+
+Top level modules:
+	rom
+
 } {} {}} C:/intelFPGA_pro/projects/MIPS/lab_4-6/tb.v {1 {vlog -work work -stats=none {C:\intelFPGA_pro\projects\MIPS\lab_4-6\tb.v}
 Model Technology ModelSim - Intel FPGA Edition vlog 10.5c Compiler 2017.01 Jan 23 2017
 -- Compiling module pc
@@ -43,19 +50,19 @@ Model Technology ModelSim - Intel FPGA Edition vlog 10.5c Compiler 2017.01 Jan 2
 Top level modules:
 	regFile
 
-} {} {}} C:/intelFPGA_pro/projects/MIPS/lab_4-6/rom.v {1 {vlog -work work -stats=none C:/intelFPGA_pro/projects/MIPS/lab_4-6/rom.v
-Model Technology ModelSim - Intel FPGA Edition vlog 10.5c Compiler 2017.01 Jan 23 2017
--- Compiling module rom
-
-Top level modules:
-	rom
-
 } {} {}} C:/intelFPGA_pro/projects/MIPS/lab_4-6/shiftLeftBy2.v {1 {vlog -work work -stats=none C:/intelFPGA_pro/projects/MIPS/lab_4-6/shiftLeftBy2.v
 Model Technology ModelSim - Intel FPGA Edition vlog 10.5c Compiler 2017.01 Jan 23 2017
 -- Compiling module shiftLeftBy2
 
 Top level modules:
 	shiftLeftBy2
+
+} {} {}} C:/intelFPGA_pro/projects/MIPS/lab_4-6/ram.v {1 {vlog -work work -stats=none C:/intelFPGA_pro/projects/MIPS/lab_4-6/ram.v
+Model Technology ModelSim - Intel FPGA Edition vlog 10.5c Compiler 2017.01 Jan 23 2017
+-- Compiling module ram
+
+Top level modules:
+	ram
 
 } {} {}} C:/intelFPGA_pro/projects/MIPS/lab_4-6/adder.v {1 {vlog -work work -stats=none C:/intelFPGA_pro/projects/MIPS/lab_4-6/adder.v
 Model Technology ModelSim - Intel FPGA Edition vlog 10.5c Compiler 2017.01 Jan 23 2017
@@ -64,12 +71,21 @@ Model Technology ModelSim - Intel FPGA Edition vlog 10.5c Compiler 2017.01 Jan 2
 Top level modules:
 	adder
 
-} {} {}} C:/intelFPGA_pro/projects/MIPS/lab_4-6/ram.v {1 {vlog -work work -stats=none {C:\intelFPGA_pro\projects\MIPS\lab_4-6\ram.v}
+} {} {}} C:/intelFPGA_pro/projects/MIPS/lab_4-6/proc.v {1 {vlog -work work -stats=none {C:\intelFPGA_pro\projects\MIPS\lab_4-6\proc.v}
 Model Technology ModelSim - Intel FPGA Edition vlog 10.5c Compiler 2017.01 Jan 23 2017
+-- Compiling module pc
+-- Compiling module rom
+-- Compiling module regFile
+-- Compiling module mux2in1
+-- Compiling module alu
+-- Compiling module signExtend
 -- Compiling module ram
+-- Compiling module control
+-- Compiling module aluControl
+-- Compiling module proc
 
 Top level modules:
-	ram
+	proc
 
 } {} {}} C:/intelFPGA_pro/projects/MIPS/lab_4-6/mux2in1.v {1 {vlog -work work -stats=none C:/intelFPGA_pro/projects/MIPS/lab_4-6/mux2in1.v
 Model Technology ModelSim - Intel FPGA Edition vlog 10.5c Compiler 2017.01 Jan 23 2017

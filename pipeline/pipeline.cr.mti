@@ -1,0 +1,120 @@
+C:/intelFPGA_pro/projects/MIPS/pipeline/signExtend.v {1 {vlog -work work -stats=none C:/intelFPGA_pro/projects/MIPS/pipeline/signExtend.v
+Model Technology ModelSim - Intel FPGA Edition vlog 10.5c Compiler 2017.01 Jan 23 2017
+-- Compiling module signExtend
+
+Top level modules:
+	signExtend
+
+} {} {}} C:/intelFPGA_pro/projects/MIPS/pipeline/pc.v {1 {vlog -work work -stats=none C:/intelFPGA_pro/projects/MIPS/pipeline/pc.v
+Model Technology ModelSim - Intel FPGA Edition vlog 10.5c Compiler 2017.01 Jan 23 2017
+-- Compiling module pc
+
+Top level modules:
+	pc
+
+} {} {}} C:/intelFPGA_pro/projects/MIPS/pipeline/aluControl.v {1 {vlog -work work -stats=none C:/intelFPGA_pro/projects/MIPS/pipeline/aluControl.v
+Model Technology ModelSim - Intel FPGA Edition vlog 10.5c Compiler 2017.01 Jan 23 2017
+-- Compiling module aluControl
+
+Top level modules:
+	aluControl
+
+} {} {}} C:/intelFPGA_pro/projects/MIPS/pipeline/mux2in1.v {1 {vlog -work work -stats=none C:/intelFPGA_pro/projects/MIPS/pipeline/mux2in1.v
+Model Technology ModelSim - Intel FPGA Edition vlog 10.5c Compiler 2017.01 Jan 23 2017
+-- Compiling module mux2in1
+
+Top level modules:
+	mux2in1
+
+} {} {}} C:/intelFPGA_pro/projects/MIPS/pipeline/tb.v {1 {vlog -work work -stats=none C:/intelFPGA_pro/projects/MIPS/pipeline/tb.v
+Model Technology ModelSim - Intel FPGA Edition vlog 10.5c Compiler 2017.01 Jan 23 2017
+-- Compiling module pc
+-- Compiling module rom
+-- Compiling module regFile
+-- Compiling module mux2in1
+-- Compiling module alu
+-- Compiling module signExtend
+-- Compiling module ram
+-- Compiling module control
+-- Compiling module aluControl
+-- Compiling module reg32
+-- Compiling module proc
+-- Compiling module tb
+
+Top level modules:
+	tb
+
+} {} {}} C:/intelFPGA_pro/projects/MIPS/pipeline/mux4in1.v {1 {vlog -work work -stats=none C:/intelFPGA_pro/projects/MIPS/pipeline/mux4in1.v
+Model Technology ModelSim - Intel FPGA Edition vlog 10.5c Compiler 2017.01 Jan 23 2017
+-- Compiling module mux4in1
+
+Top level modules:
+	mux4in1
+
+} {} {}} C:/intelFPGA_pro/projects/MIPS/pipeline/shiftLeftBy2.v {1 {vlog -work work -stats=none C:/intelFPGA_pro/projects/MIPS/pipeline/shiftLeftBy2.v
+Model Technology ModelSim - Intel FPGA Edition vlog 10.5c Compiler 2017.01 Jan 23 2017
+-- Compiling module shiftLeftBy2
+
+Top level modules:
+	shiftLeftBy2
+
+} {} {}} C:/intelFPGA_pro/projects/MIPS/pipeline/control.v {1 {vlog -work work -stats=none C:/intelFPGA_pro/projects/MIPS/pipeline/control.v
+Model Technology ModelSim - Intel FPGA Edition vlog 10.5c Compiler 2017.01 Jan 23 2017
+-- Compiling module control
+
+Top level modules:
+	control
+
+} {} {}} C:/intelFPGA_pro/projects/MIPS/pipeline/alu.v {1 {vlog -work work -stats=none C:/intelFPGA_pro/projects/MIPS/pipeline/alu.v
+Model Technology ModelSim - Intel FPGA Edition vlog 10.5c Compiler 2017.01 Jan 23 2017
+-- Compiling module alu
+
+Top level modules:
+	alu
+
+} {} {}} C:/intelFPGA_pro/projects/MIPS/pipeline/reg32.v {1 {vlog -work work -stats=none C:/intelFPGA_pro/projects/MIPS/pipeline/reg32.v
+Model Technology ModelSim - Intel FPGA Edition vlog 10.5c Compiler 2017.01 Jan 23 2017
+-- Compiling module reg32
+
+Top level modules:
+	reg32
+
+} {} {}} C:/intelFPGA_pro/projects/MIPS/pipeline/proc.v {1 {vlog -work work -stats=none C:/intelFPGA_pro/projects/MIPS/pipeline/proc.v
+Model Technology ModelSim - Intel FPGA Edition vlog 10.5c Compiler 2017.01 Jan 23 2017
+-- Compiling module pc
+-- Compiling module rom
+-- Compiling module regFile
+-- Compiling module mux2in1
+-- Compiling module alu
+-- Compiling module signExtend
+-- Compiling module ram
+-- Compiling module control
+-- Compiling module aluControl
+-- Compiling module reg32
+-- Compiling module proc
+
+Top level modules:
+	proc
+
+} {} {}} C:/intelFPGA_pro/projects/MIPS/pipeline/rom.v {1 {vlog -work work -stats=none C:/intelFPGA_pro/projects/MIPS/pipeline/rom.v
+Model Technology ModelSim - Intel FPGA Edition vlog 10.5c Compiler 2017.01 Jan 23 2017
+-- Compiling module rom
+
+Top level modules:
+	rom
+
+} {} {}} C:/intelFPGA_pro/projects/MIPS/pipeline/regFile.v {1 {vlog -work work -stats=none C:/intelFPGA_pro/projects/MIPS/pipeline/regFile.v
+Model Technology ModelSim - Intel FPGA Edition vlog 10.5c Compiler 2017.01 Jan 23 2017
+-- Compiling module regFile
+
+Top level modules:
+	regFile
+
+} {} {}} C:/intelFPGA_pro/projects/MIPS/pipeline/adder.v {1 {vlog -work work -stats=none C:/intelFPGA_pro/projects/MIPS/pipeline/adder.v
+Model Technology ModelSim - Intel FPGA Edition vlog 10.5c Compiler 2017.01 Jan 23 2017
+-- Compiling module adder
+
+Top level modules:
+	adder
+
+} {} {}}

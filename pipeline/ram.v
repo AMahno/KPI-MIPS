@@ -1,6 +1,6 @@
 module ram(i_clk, i_addr, i_data, i_we, o_data);
 	parameter DATA_WIDTH = 32;
-	parameter ADDR_WIDTH = 6; //32 4-byte words 
+	parameter ADDR_WIDTH = 8; //32 4-byte words 
 
 	input                     i_clk, i_we;
 	input   [ADDR_WIDTH-1:0]  i_addr;

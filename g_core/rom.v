@@ -1,5 +1,5 @@
 module rom
-#(parameter DATA_WIDTH=32, parameter ADDR_WIDTH=8)
+#(parameter DATA_WIDTH=16, parameter ADDR_WIDTH=16)
 (
 	input [(ADDR_WIDTH-1):0] i_addr,
 	output reg [(DATA_WIDTH-1):0] o_data
@@ -11,6 +11,6 @@ module rom
 		o_data = mem[i_addr];
 		
 	initial
-		$readmemh("mars.dat", mem);
+		$readmemh("rom.dat", mem);
 		
 endmodule
